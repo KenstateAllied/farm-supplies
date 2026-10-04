@@ -3,7 +3,7 @@
 	$port = getenv('PGPORT') ?: '5432';
 	$database = getenv('PGDATABASE') ?: 'br';
 	$username = getenv('PGUSER') ?: 'postgres';
-	$password = getenv('PGPASSWORD') ?: '';
+	$password = getenv('PGPASSWORD') ?: 'mutsam';
 
 	$dsn = "pgsql:host=$host;port=$port;dbname=$database";
 
